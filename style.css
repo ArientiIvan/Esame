@@ -1,0 +1,150 @@
+.card-container.card {
+  max-width: 350px;
+  padding: 40px 40px;
+}
+.btn {
+  font-weight: 700;
+  height: 36px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+
+.card {
+  background-color: #F7F7F7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.reauth-email {
+  display: block;
+  color: #404040;
+  line-height: 2;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form #inputEmail,
+.form #inputPassword {
+  direction: ltr;
+  height: 44px;
+  font-size: 16px;
+}
+
+.form input[type=email],
+.form input[type=password],
+.form input[type=text],
+.form button {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  z-index: 1;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn.btn-accesso {
+  background-color: #2DC7FF;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  -o-transition: all 0.218s;
+  -moz-transition: all 0.218s;
+  -webkit-transition: all 0.218s;
+  transition: all 0.218s;
+}
+
+.btn.btn-accesso:hover,
+.btn.btn-accesso:active,
+.btn.btn-accesso:focus {
+    background-color: #00ABE7;
+}
+
+.btn.btn-registrazione {
+  background-color: #7EB2DD;
+  padding: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  -o-transition: all 0.218s;
+  -moz-transition: all 0.218s;
+  -webkit-transition: all 0.218s;
+  transition: all 0.218s;
+}
+
+.btn.btn-registrazione:hover,
+.btn.btn-registrazione:active,
+.btn.btn-registrazione:focus {
+    background-color: #569ad2;
+}
+
+.passwordDimenticata, .registrazione {
+    color: #577590;
+}
+
+.passwordDimenticata:hover,
+.passwordDimenticata:active,
+.passwordDimenticata:focus{
+    color: #0081AF;
+}
+
+.login-oppure {
+  position: relative;
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 10px;
+          margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.span-oppure {
+  display: block;
+  position: absolute;
+  left: 46%;
+  top: -2px;
+  margin-left: -25px;
+  background-color: #F7F7F7;
+  width: 70px;
+  text-align: center;
+}
+.hr-oppure {
+  background-color: #cdcdcd;
+  height: 1px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.error-msg{
+	border:1px solid #ee0000;
+	background:#ee0000;
+	color:#ffffff;
+	padding:2px;
+	font-size:13px;
+}
